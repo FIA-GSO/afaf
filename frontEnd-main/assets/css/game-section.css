@@ -1,0 +1,163 @@
+/* this sections gives style to quiz game and videogame */
+#main-Section {
+    margin: 10px 100px 20px 100px;
+}
+
+#afaf-gametitle {
+    font-size: 1.5rem;
+    margin-left: 2rem !important;
+    margin-top: -0.5rem !important;
+    font-size:1.5rem;
+}
+
+.title-orange{
+    color: #e8481d !important;
+}
+
+.title-yellow{
+    color:#f59c2c !important;
+}
+
+#game-section-flex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#game-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cfcfcf;
+    width: 100%;
+    border-radius: 2.5rem;
+    align-self: center;
+}
+
+#game-image {
+    width: 45vw !important;
+    height: auto !important;
+
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 700px !important;
+
+}
+
+#game-objective {
+font-size: 1rem;
+}
+
+#button-section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+
+#quizTestText {
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+#quiz-score-title-section {
+display: column;
+justify-content: center;
+align-content: center;    
+align-items: center;
+gap: 10%;
+}
+#video-section {
+    margin-top: 50px;
+}
+#quizScore {
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#page-title {
+    display: flex;
+    align-items: center;
+    gap: 8%;
+}
+
+
+@media screen and (max-width: 768px) {
+    #main-Section {
+        margin: 10px 15px;
+    }
+
+    #page-title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #afaf-gametitle {
+        font-size: 1.2rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #game-section {
+        width: 95%;
+        border-radius: 1rem;
+        padding: 10px;
+    }
+
+    #game-image {
+        width: 60vw !important;
+        height: 25vh !important;
+
+    }
+
+    #quizTestText {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    #button-section {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .quizButton {
+        width: 45%;
+        max-width: 50px;
+    }
+
+    .quizButton img {
+        width: 100%;
+        height: auto;
+    }
+
+    #game-objective {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    #-page-title-column img {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+/* For extra small phones */
+@media screen and (max-width: 480px) {
+    #game-image {
+        height: 30vh !important;
+    }
+
+    #quizTestText {
+        font-size: 0.9rem;
+    }
+
+
+}
